@@ -26,7 +26,21 @@ The agent retrieves live Binance market data through Binance Agent OS MCP and ge
 - Momentum classification
 - Risk classification
 - Short AI market insight
+## 🖥️ Demo
 
+### Alpha Scout Dashboard
+
+A lightweight research dashboard that transforms live Binance market data into a concise market snapshot with trend, momentum, risk, 24-hour range positioning, and Alpha Scout insight.
+
+![Binance Alpha Scout Dashboard](screenshots/dashboard.png)
+
+### 🤖 Binance Agent OS MCP Integration
+
+Alpha Scout integrates with Binance Agent OS through MCP. The example below shows the agent retrieving live SOLUSDT market data through the Binance MCP `spot_ticker24hr` tool and producing a structured market analysis.
+
+![Binance Agent OS MCP Integration](screenshots/agent-os-mcp.png)
+
+> **Safety:** Alpha Scout is currently designed as a read-only market research agent. It does not place orders, transfer assets, or withdraw funds.
 ---
 
 ## 🧠 Architecture
